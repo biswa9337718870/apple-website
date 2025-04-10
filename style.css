@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+nav a, i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+
+nav i{
+    font-size: 1.5vw;
+}
+
+.one{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, rgb(167, 2, 208), rgb(253, 254, 255)), url('https://images.unsplash.com/photo-1612837921952-4f3a1b8c7d6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60') no-repeat center center/cover;
+}
+.one h1{
+    font-size: 25vw;
+    font-family: sans-serif;
+    color: rgb(216, 218, 224);
+}
+
+#Iphone{
+    width: 40%;
+    z-index: 2;
+    position: absolute;
+
+}
+
+#apple{
+    width: 12%;
+    position: absolute;
+    top: 8%;
+    left: 36%;
+    z-index: 1;
+ 
+}
+
+#airpods{
+    width: 15%;
+    position: absolute;
+    z-index: 3;
+    top: 60%;
+    right: 35%;
+}
+
+#airpods_max{
+    width: 10%;
+    position: absolute;
+    top: 23%;
+    left: 8%;
+    transform: rotate(42deg);
+ 
+}
+#logo{
+    width: 21%;
+ 
+}
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(142, 93, 155), rgb(219, 29, 178)), url('https://images.unsplash.com/photo-1612837921952-4f3a1b8c7d6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60') no-repeat center center/cover;
+}
+.left-two, .right-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 5vh;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-two svg{
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+
+.right-two h1{
+    font-size: 3vw;
+    color: #fff;
+}
+
+.right-two p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+
+.three{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    background: linear-gradient(150deg,rgb(235, 219, 232), rgb(207, 105, 185));
+}
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 25vw;
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card h1{
+    font-size: 3vw;
+    margin-top: 40vh;
+    color: #fff;
+}
+
+.card button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color: rgba(255, 149, 0);
+
+}
+
+.card1{
+    background-color: rgba(249, 5, 5, 0.4);
+    backdrop-filter: blur(20px);
+}
+
+.card2{
+    background-color: rgba(249, 103, 5, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+.card3{
+    background-color: rgba(145, 95, 253, 0.4);
+    backdrop-filter: blur(20px);
+}
+
+.card4{
+    background-color: rgba(2, 31, 251, 0.484);
+    backdrop-filter: blur(20px);
+}
+.card5{
+    background-color: rgba(1, 242, 255, 0.429);
+    backdrop-filter: blur(20px);
+}
+.card6{
+    background-color: rgba(195, 4, 253, 0.385);
+    backdrop-filter: blur(20px);
+}
+
+button:active{
+    background-color: rgb(250, 207, 127);
+}
+
+button:hover{
+    letter-spacing: 1px;
+}
+
+#charger{
+    top: 7%;
+    left: 55%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    position: absolute;
+ 
+}
+
+#watch{
+    top: 7%;
+    position: absolute;
+    left: 56%;
+    transform: translate(-50%, 0%);
+    width: 75%;
+
+}
+#ipad{
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 112%;
+    position: absolute;
+ 
+}
+#airpods_buy{
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 79%;
+    position: absolute;
+ 
+}
+#airpods_max_buy{
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 60%;
+    position: absolute;
+ 
+}
